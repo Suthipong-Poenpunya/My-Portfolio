@@ -12,7 +12,7 @@ export default function Projects() {
       githubUrl: 'https://github.com/suthipong-poenpunya/buranakan-panya-demo',
     },
     {
-      title: 'Task Management App',
+      title: 'Task Management App (SOON)',
       description: 'Collaborative task management application with real-time updates, drag-and-drop functionality, and team analytics.',
       tech: ['Vue.js', 'Express', 'PostgreSQL', 'Socket.io'],
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=400&fit=crop',
@@ -20,7 +20,7 @@ export default function Projects() {
       githubUrl: '#',
     },
     {
-      title: 'Weather Dashboard',
+      title: 'Weather Dashboard (SOON)',
       description: 'Beautiful weather application with location-based forecasts, interactive maps, and detailed meteorological data.',
       tech: ['React', 'TypeScript', 'Tailwind CSS', 'OpenWeather API'],
       image: 'https://images.unsplash.com/photo-1592210454359-90444f8d8137?w=800&h=400&fit=crop',
@@ -28,7 +28,7 @@ export default function Projects() {
       githubUrl: '#',
     },
     {
-      title: 'Social Media Analytics',
+      title: 'Social Media Analytics (SOON)',
       description: 'Comprehensive analytics dashboard for social media management with data visualization and reporting features.',
       tech: ['Next.js', 'Python', 'Redis', 'Chart.js'],
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop',
@@ -36,7 +36,7 @@ export default function Projects() {
       githubUrl: '#',
     },
     {
-      title: 'AI Chat Assistant',
+      title: 'AI Chat Assistant (SOON)',
       description: 'Intelligent chatbot powered by machine learning for customer support and automated responses.',
       tech: ['Python', 'TensorFlow', 'React', 'FastAPI'],
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop',
@@ -44,7 +44,7 @@ export default function Projects() {
       githubUrl: '#',
     },
     {
-      title: 'Portfolio Website',
+      title: 'Portfolio Website (SOON)',
       description: 'Modern portfolio website with smooth animations, dark mode, and optimized performance.',
       tech: ['React', 'Framer Motion', 'Tailwind CSS', 'Vite'],
       image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=400&fit=crop',
