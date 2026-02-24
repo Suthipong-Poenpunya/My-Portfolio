@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && git add docs && git commit -m 'Update docs' && git push origin main"
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
