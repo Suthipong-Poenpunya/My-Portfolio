@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react'
 export default function Hero() {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/Suthipong-Poenpunya', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/suthipong-phernpanya-8142843b3/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJ%2FXoGUdXSmm2PrJOn7Jp9w%3D%3D', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:suthipong7754@gmail.com', label: 'Email' },
   ]
 

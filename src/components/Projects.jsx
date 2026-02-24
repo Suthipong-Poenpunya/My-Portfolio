@@ -4,12 +4,12 @@ import { ExternalLink, Github } from 'lucide-react'
 export default function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with real-time inventory management, payment processing, and responsive design.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: 'E-Management School System',
+      description: 'A School Management System that helps schools manage their students, teachers, and courses.',
+      tech: ['React', 'Node.js', 'Vite', 'Gemini AI (API)', 'OCR'],
+      image: 'https://i.ibb.co/4gWHqbTg/2569-02-25-00-45-34.png',
+      liveUrl: 'https://suthipong-poenpunya.github.io/buranakan-panya-demo/',
+      githubUrl: 'https://github.com/suthipong-poenpunya/buranakan-panya-demo',
     },
     {
       title: 'Task Management App',

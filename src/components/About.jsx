@@ -1,7 +1,26 @@
 import { motion } from 'framer-motion'
-import { Code, Database, Palette, Globe } from 'lucide-react'
+import { Code, Database, Palette, Globe, GraduationCap, Calendar, MapPin, Award } from 'lucide-react'
 
 export default function About() {
+  const education = [
+    {
+      degree: 'Bachelor of Educational Technology',
+      school: 'Chulalongkorn University',
+      period: '2024 - Present',
+      location: 'Bangkok, Thailand',
+      gpa: '3.26',
+      description: 'Focused on learning design, educational technology integration, and digital learning environments.',
+    },
+    {
+      degree: 'Bachelor of Computer Science',
+      school: 'Ramkhamhaeng University',
+      period: '2025 - Present',
+      location: 'Bangkok, Thailand',
+      gpa: '3.15',
+      description: 'Specialized in software development, algorithms, and computer systems with applications in educational technology.',
+    },
+  ]
+
   const skills = [
     {
       icon: Code,
@@ -11,17 +30,17 @@ export default function About() {
     {
       icon: Database,
       title: 'Web Development',
-      description: 'React, Node.js, Python, Database Design',
+      description: 'React, Node.js, PHP, SQL,Python, Database Design',
     },
     {
       icon: Palette,
       title: 'UI/UX Design',
-      description: 'User-centered Design, Accessibility, Educational Interface Design',
+      description: 'User-centered Design, Figma, Accessibility, Educational Interface Design',
     },
     {
       icon: Globe,
       title: 'Digital Learning',
-      description: 'Online Course Development, Educational Content Creation',
+      description: 'AI Specialist,Online Course Development, Educational Content Creation',
     },
   ]
 
@@ -86,7 +105,7 @@ export default function About() {
               <p className="text-gray-700 dark:text-gray-300">Specialization</p>
             </div>
             <div className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900 dark:to-green-800 p-6 rounded-xl">
-              <h4 className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">CS</h4>
+              <h4 className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">CU-ET And RAM-CS</h4>
               <p className="text-gray-700 dark:text-gray-300">Background</p>
             </div>
             <div className="bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-900 dark:to-orange-800 p-6 rounded-xl">
@@ -95,6 +114,61 @@ export default function About() {
             </div>
           </motion.div>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="mb-16"
+        >
+          <h3 className="text-2xl font-bold mb-8 text-center text-gray-900 dark:text-white">
+            Educational Background
+          </h3>
+          <div className="grid md:grid-cols-2 gap-8">
+            {education.map((edu, index) => (
+              <motion.div
+                key={edu.degree}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl hover:shadow-lg transition-shadow duration-300"
+              >
+                <div className="flex items-start space-x-4">
+                  <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg">
+                    <GraduationCap className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
+                      {edu.degree}
+                    </h4>
+                    <p className="text-lg text-gray-700 dark:text-gray-300 mb-2">
+                      {edu.school}
+                    </p>
+                    <div className="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-400 mb-3">
+                      <div className="flex items-center space-x-1">
+                        <Calendar className="w-4 h-4" />
+                        <span>{edu.period}</span>
+                      </div>
+                      <div className="flex items-center space-x-1">
+                        <MapPin className="w-4 h-4" />
+                        <span>{edu.location}</span>
+                      </div>
+                      <div className="flex items-center space-x-1">
+                        <Award className="w-4 h-4" />
+                        <span>GPA: {edu.gpa}</span>
+                      </div>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-300 text-sm">
+                      {edu.description}
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

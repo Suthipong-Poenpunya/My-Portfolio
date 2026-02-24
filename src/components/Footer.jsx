@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail, ArrowUp } from 'lucide-react'
 export default function Footer() {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/Suthipong-Poenpunya', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/suthipong-phernpanya-8142843b3/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJ%2FXoGUdXSmm2PrJOn7Jp9w%3D%3D', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:suthipong7754@gmail.com', label: 'Email' },
   ]
 
@@ -22,7 +22,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-2xl font-bold mb-4 gradient-text">Portfolio</h3>
+            <h3 className="text-2xl font-bold mb-4 gradient-text">Suthipong</h3>
             <p className="text-gray-400 mb-4">
               Creating innovative educational technology solutions that bridge the gap between 
               development and learning, making education accessible and engaging for everyone.
