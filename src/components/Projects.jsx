@@ -12,12 +12,12 @@ export default function Projects() {
       githubUrl: 'https://github.com/suthipong-poenpunya/buranakan-panya-demo',
     },
     {
-      title: 'Task Management App (SOON)',
-      description: 'Collaborative task management application with real-time updates, drag-and-drop functionality, and team analytics.',
-      tech: ['Vue.js', 'Express', 'PostgreSQL', 'Socket.io'],
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=400&fit=crop',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: 'KNK-Listener: Complaint Report System for Student',
+      description: 'Complaint Report System for Student in Faculty of Education, Chulalongkorn University, Supported by USCE.CU',
+      tech: ['HTML', 'CSS', 'Apps Script', 'AppSheets', 'Google Sheet', 'Google Form'],
+      image: 'https://i.ibb.co/dJXVd6PB/2569-02-25-09-56-27.png',
+      liveUrl: 'https://suthipong-poenpunya.github.io/knk-listener/',
+      githubUrl: 'https://github.com/Suthipong-Poenpunya/knk-listener',
     },
     {
       title: 'Weather Dashboard (SOON)',
