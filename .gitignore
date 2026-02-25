@@ -25,3 +25,7 @@ dist-ssr
 
 # gh-pages cache
 node_modules/.cache/gh-pages
+
+# Built files (managed by GitHub Actions)
+index.html
+assets/
