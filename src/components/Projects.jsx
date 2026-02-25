@@ -20,9 +20,9 @@ export default function Projects() {
       githubUrl: 'https://github.com/Suthipong-Poenpunya/knk-listener',
     },
     {
-      title: 'Weather Dashboard (SOON)',
-      description: 'Beautiful weather application with location-based forecasts, interactive maps, and detailed meteorological data.',
-      tech: ['React', 'TypeScript', 'Tailwind CSS', 'OpenWeather API'],
+      title: 'Thai University Management System',
+      description: 'A PHP-based Student Management System for Thai University, it Use for Registration and Management Student Data By Admin , Students, Teacher Role.',
+      tech: ['PHP', 'MySQL', 'Tailwind CSS'],
       image: 'https://images.unsplash.com/photo-1592210454359-90444f8d8137?w=800&h=400&fit=crop',
       liveUrl: '#',
       githubUrl: '#',
