@@ -5,8 +5,8 @@ export default function Projects() {
   const projects = [
     {
       title: 'E-Management School System',
-      description: 'A School Management System that helps schools manage their students, teachers, and courses.',
-      tech: ['React', 'Node.js', 'Vite', 'Gemini AI (API)', 'OCR'],
+      description: 'A School Management System By Digital Credit Bank Using Blockchain Technology And OCR For Scan Students Score that helps schools manage their students and courses.',
+      tech: ['React', 'Node.js', 'Vite', 'Gemini AI (API)', 'OCR', 'Blockchain'],
       image: 'https://i.ibb.co/4gWHqbTg/2569-02-25-00-45-34.png',
       liveUrl: 'https://suthipong-poenpunya.github.io/buranakan-panya-demo/',
       githubUrl: 'https://github.com/suthipong-poenpunya/buranakan-panya-demo',
@@ -86,6 +86,8 @@ export default function Projects() {
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 flex space-x-3">

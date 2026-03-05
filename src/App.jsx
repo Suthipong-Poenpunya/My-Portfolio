@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, lazy, Suspense } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import About from './components/About'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+
+const About = lazy(() => import('./components/About'))
+const Projects = lazy(() => import('./components/Projects'))
+const Contact = lazy(() => import('./components/Contact'))
+const Footer = lazy(() => import('./components/Footer'))
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false)
@@ -21,10 +22,12 @@ function App() {
     <div className="min-h-screen">
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Suspense fallback={null}>
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
+      </Suspense>
     </div>
   )
 }

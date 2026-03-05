@@ -73,18 +73,18 @@ export default function About() {
               My Story
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              As a Developer and Educational Technologist with a unique dual background, I bring together 
-              the worlds of computer science and educational technology. My journey has been driven by a 
+              As a Developer and Educational Technologist with a unique dual background, I bring together
+              the worlds of computer science and educational technology. My journey has been driven by a
               passion for creating innovative solutions that enhance learning experiences through technology.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              I hold dual bachelor's degrees in Educational Technology from Chulalongkorn University and 
-              Computer Science from Ramkhamhaeng University, giving me a comprehensive understanding of 
-              both pedagogical principles and technical implementation. This unique combination allows me 
+              I study in dual bachelor's degrees in Educational Technology from Chulalongkorn University and
+              Computer Science from Ramkhamhaeng University, giving me a comprehensive understanding of
+              both pedagogical principles and technical implementation. This unique combination allows me
               to design and build educational technology tools that are both effective and user-friendly.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
-              My work focuses on bridging the gap between education and technology, creating applications 
+              My work focuses on bridging the gap between education and technology, creating applications
               and platforms that make learning more accessible, engaging, and effective for diverse audiences.
             </p>
           </motion.div>
