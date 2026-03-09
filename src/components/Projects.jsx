@@ -23,9 +23,9 @@ export default function Projects() {
       title: 'Thai University Management System',
       description: 'A PHP-based Student Management System for Thai University. Use for Registration and Management Student Data By Admin, Students, Teacher Role.',
       tech: ['PHP', 'MySQL', 'Tailwind CSS'],
-      image: 'https://images.unsplash.com/photo-1592210454359-90444f8d8137?w=800&h=400&fit=crop',
-      liveUrl: '#',
-      githubUrl: '#',
+      image: 'https://i.ibb.co/QvLVgNTH/2569-03-09-23-34-30.png',
+      liveUrl: 'https://suthipong-poenpunya.github.io/edu-connect/',
+      githubUrl: 'https://github.com/Suthipong-Poenpunya/edu-connect',
     },
     {
       title: 'Social Media Analytics (SOON)',
