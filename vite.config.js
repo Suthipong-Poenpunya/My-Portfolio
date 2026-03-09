@@ -20,7 +20,7 @@ export default defineConfig({
   plugins: [react(), devHtmlFallback()],
   base: '/My-Portfolio/',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     assetsDir: 'assets',
     rollupOptions: {
       input: resolve(__dirname, 'index.dev.html'),
