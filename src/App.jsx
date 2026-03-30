@@ -1,6 +1,7 @@
 import { useState, useEffect, lazy, Suspense } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import ErrorBoundary from './components/ErrorBoundary'
 
 const About = lazy(() => import('./components/About'))
 const Projects = lazy(() => import('./components/Projects'))
@@ -22,12 +23,14 @@ function App() {
     <div className="min-h-screen">
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Hero />
-      <Suspense fallback={null}>
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </Suspense>
+      <ErrorBoundary>
+        <Suspense fallback={null}>
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+        </Suspense>
+      </ErrorBoundary>
     </div>
   )
 }
