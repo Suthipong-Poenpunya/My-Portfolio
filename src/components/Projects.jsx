@@ -27,30 +27,6 @@ export default function Projects() {
       liveUrl: 'https://suthipong-poenpunya.github.io/edu-connect/',
       githubUrl: 'https://github.com/Suthipong-Poenpunya/edu-connect',
     },
-    {
-      title: 'Social Media Analytics (SOON)',
-      description: 'Comprehensive analytics dashboard for social media management with data visualization and reporting features.',
-      tech: ['Next.js', 'Python', 'Redis', 'Chart.js'],
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop',
-      liveUrl: '#',
-      githubUrl: '#',
-    },
-    {
-      title: 'AI Chat Assistant (SOON)',
-      description: 'Intelligent chatbot powered by machine learning for customer support and automated responses.',
-      tech: ['Python', 'TensorFlow', 'React', 'FastAPI'],
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop',
-      liveUrl: '#',
-      githubUrl: '#',
-    },
-    {
-      title: 'Portfolio Website (SOON)',
-      description: 'Modern portfolio website with smooth animations, dark mode, and optimized performance.',
-      tech: ['React', 'Framer Motion', 'Tailwind CSS', 'Vite'],
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=400&fit=crop',
-      liveUrl: '#',
-      githubUrl: '#',
-    },
   ]
 
   return (
