@@ -27,6 +27,14 @@ export default function Projects() {
       liveUrl: 'https://suthipong-poenpunya.github.io/edu-connect/',
       githubUrl: 'https://github.com/Suthipong-Poenpunya/edu-connect',
     },
+    {
+      title: 'Electronics Portfolio Website',
+      description: 'A Portfolio Website for showcase my skills and experience.',
+      tech: ['Canva'],
+      image: 'https://i.ibb.co/KxrN7d7f/2569-04-01-09-41-20.png',
+      liveUrl: 'https://test1portfliocsitdxwang.my.canva.site/my-portflio-suthipong-poenpunya',
+      githubUrl: 'https://canva.link/s2dg2ghit48op40',
+    }
   ]
 
   return (
